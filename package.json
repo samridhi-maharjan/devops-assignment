@@ -1,0 +1,21 @@
+{
+  "name": "devops-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samridhi-maharjan/devops-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samridhi-maharjan/devops-assignment/issues"
+  },
+  "homepage": "https://github.com/samridhi-maharjan/devops-assignment#readme"
+}
