@@ -28,8 +28,12 @@ If the test fails, the dependent job (build-job) will not run.
 ## Assignment 2: Break and Fix Challenge
 <img src="/images/error.png">
 
-<b>What the error means
+<b>What the error means <br>
 Docker couldn’t find the image node:22-samridhi on Docker Hub. This happened because the image tag I wrote doesn’t exist. Since Docker can’t find a valid base image, it couldn’t build my app.
 
-<b>How I fixed it?
+<b>How I fixed it?<br>
 I updated the Dockerfile to use a valid Node.js image tag.After pushing this fix, the workflow ran successfully and the build-job passed.
+<br>
+
+- **Failed workedflow run**: [link] (https://github.com/samridhi-maharjan/devops-assignment/actions/runs/18317843045)
+- **Sucessful workflow run**: [link] (https://github.com/samridhi-maharjan/devops-assignment/actions/runs/18319769142)
