@@ -5,11 +5,11 @@ console.log("Hello World");
 
 I created a Dockerfile to containerize the app, and a GitHub Actions workflow file (.github/workflows/build.yml) to automate testing and building.
 
-- ## Workflow Explanation:<br>
+- # Workflow Explanation <br>
 The workflow is triggered on every push to the main branch.<br><br>
 It contains two jobs:<br>
 
-- # test-job<br>
+- # test-job <br>
 Runs node app.js as a simple test to verify the app runs without crashing.
 If this job fails, the workflow stops immediately.
 
@@ -21,3 +21,8 @@ Builds the Docker image using docker build . to ensure the Dockerfile is valid.
 The needs: keyword creates a dependency between jobs.
 It ensures that the build-job waits for the test-job to pass successfully before starting.
 If the test fails, the dependent job (build-job) will not run.
+
+
+---
+
+## Assignment 2: Break and Fix Challenge
