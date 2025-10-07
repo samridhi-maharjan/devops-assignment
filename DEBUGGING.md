@@ -36,5 +36,5 @@ I updated the Dockerfile to use a valid Node.js image tag.After pushing this fix
 <br>
 <img src="/images/sucess.png">
 
-- **Failed workedflow run**: [link] (https://github.com/samridhi-maharjan/devops-assignment/actions/runs/18317843045)
-- **Sucessful workflow run**: [link] (https://github.com/samridhi-maharjan/devops-assignment/actions/runs/18319769142)
+- **Failed workedflow run**: [link](https://github.com/samridhi-maharjan/devops-assignment/actions/runs/18317843045)
+- **Sucessful workflow run**: [link](https://github.com/samridhi-maharjan/devops-assignment/actions/runs/18319769142)
