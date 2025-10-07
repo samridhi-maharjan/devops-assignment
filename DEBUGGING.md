@@ -34,6 +34,7 @@ Docker couldn’t find the image node:22-samridhi on Docker Hub. This happened b
 <b>How I fixed it?<br>
 I updated the Dockerfile to use a valid Node.js image tag.After pushing this fix, the workflow ran successfully and the build-job passed.
 <br>
+<img src="/images/sucess.png">
 
 - **Failed workedflow run**: [link] (https://github.com/samridhi-maharjan/devops-assignment/actions/runs/18317843045)
 - **Sucessful workflow run**: [link] (https://github.com/samridhi-maharjan/devops-assignment/actions/runs/18319769142)
